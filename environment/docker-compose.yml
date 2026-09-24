@@ -1,0 +1,11 @@
+services:
+  lab:
+    build:
+      context: ..
+      dockerfile: environment/Dockerfile
+    image: bof-escape-lab:latest
+    container_name: bof-escape-lab
+    stdin_open: true
+    tty: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
