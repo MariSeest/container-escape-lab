@@ -9,8 +9,7 @@ Applicazione vulnerabile (buffer overflow in C)
    -> lettura come root sull'host               [condizione finale]
 ```
 
-Laboratorio autonomo: nessun sistema esterno. L'host compromesso e' la VM locale
-del Docker Engine (su Windows/macOS la VM di Docker Desktop).
+L'host compromesso e' la VM locale del Docker Engine (su Windows/macOS la VM di Docker Desktop).
 
 ## Struttura
 
@@ -45,7 +44,7 @@ bash scripts/setup.sh     # pull alpine, pianta la flag host, build e avvio
 bash scripts/demo.sh      # baseline + catena completa (bof -> shell -> escape)
 bash scripts/cleanup.sh   # smonta e ripulisce
 ```
-Successo: nella tappa finale compare HOST-FLAG{docker_socket_mount_equals_root_on_host}.
+ nella tappa finale compare HOST-FLAG{docker_socket_mount_equals_root_on_host}.
 
 ## Esecuzione manuale (Windows cmd)
 Dalla cartella assignment (un comando per volta).
