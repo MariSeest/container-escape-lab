@@ -91,5 +91,4 @@ shell ottenuta. La shell usa il socket Docker montato per creare un container ch
 monta la root dell'host e legge la flag di host.
 
 ## Nota etica
-Vulnerabilita' deliberate a scopo didattico. Eseguire solo sulla propria
-macchina. Tutte le azioni restano confinate al Docker Engine locale.
+Vulnerabilità a scopo didattico. Eseguire solo sulla propria macchina. Tutte le azioni restano confinate al Docker Engine locale.
